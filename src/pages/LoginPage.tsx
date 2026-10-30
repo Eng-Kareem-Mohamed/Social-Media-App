@@ -35,12 +35,6 @@ export const LoginPage: React.FC = () => {
     }
   };
 
-  const fillDemoAccount = () => {
-    setEmail('ahmedbahnasy@gmail.com');
-    setPassword('Bahnasy@123');
-    setError(null);
-  };
-
   return (
     <div className="bg-atmospheric min-h-screen flex items-center justify-center p-4 sm:p-6 relative">
       {/* Background Aura Glow Elements */}
@@ -118,18 +112,6 @@ export const LoginPage: React.FC = () => {
               <LogIn size={16} />
               <span>Sign In</span>
             </Button>
-
-            {/* Quick Demo Fill button */}
-            <div className="pt-2">
-              <button
-                type="button"
-                onClick={fillDemoAccount}
-                className="w-full py-2 px-3 text-[11px] font-semibold text-[#1877F2] bg-blue-50/70 hover:bg-blue-100/70 rounded-xl transition-colors border border-blue-100 flex items-center justify-center gap-1.5"
-              >
-                <Sparkles size={13} />
-                <span>Quick Fill Demo Account</span>
-              </button>
-            </div>
           </form>
 
           <div className="mt-6 pt-4 border-t border-slate-100 text-center">
