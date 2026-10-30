@@ -44,8 +44,8 @@ export const FloatingNavbar: React.FC = () => {
             <Sparkles size={20} className="animate-spin-slow" />
           </div>
           <div className="hidden sm:block">
-            <span className="font-extrabold text-lg tracking-tight bg-gradient-to-r from-[#1877F2] to-[#0D6EFD] bg-clip-text text-transparent">
-              RoutePosts
+            <span className="font-black text-lg tracking-tight bg-gradient-to-r from-[#1877F2] to-[#0D6EFD] bg-clip-text text-transparent">
+              Orbit
             </span>
           </div>
         </Link>
@@ -59,7 +59,7 @@ export const FloatingNavbar: React.FC = () => {
             />
             <input
               type="text"
-              placeholder="Search posts, mentors, students..."
+              placeholder="Search posts, creators, people..."
               className="w-full pl-10 pr-4 py-1.5 text-xs sm:text-sm bg-slate-100/70 hover:bg-slate-100 focus:bg-white border border-slate-200/60 focus:border-blue-400/80 rounded-full outline-none transition-all duration-200 shadow-inner"
             />
           </div>

@@ -215,7 +215,7 @@ export const UserProfilePage: React.FC = () => {
             {profileUser.dateOfBirth && (
               <span className="flex items-center gap-1.5">
                 <Calendar size={14} className="text-slate-400" />
-                Joined Route Academy
+                Joined Orbit
               </span>
             )}
             <span className="px-2 py-0.5 rounded-full bg-slate-100 font-semibold text-[11px] uppercase">

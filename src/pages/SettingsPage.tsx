@@ -159,7 +159,7 @@ export const SettingsPage: React.FC = () => {
           <span>Account Protection</span>
         </div>
         <p className="text-xs text-slate-600 leading-relaxed">
-          Logged in as <strong className="text-slate-800">{user?.email}</strong>. Connected to Route Academy Posts infrastructure.
+          Logged in as <strong className="text-slate-800">{user?.email}</strong>. Connected to Orbit Cloud infrastructure.
         </p>
       </FloatingCard>
     </div>

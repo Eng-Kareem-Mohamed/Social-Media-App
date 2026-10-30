@@ -187,10 +187,10 @@ export const HomePage: React.FC = () => {
               </h3>
               <p className="text-xs text-slate-500 max-w-sm mx-auto leading-relaxed">
                 {filter === 'following'
-                  ? "You're not following anyone with recent posts, or they haven't shared anything yet. Discover classmates in Suggested For You or browse the community!"
+                  ? "You're not following anyone with recent posts, or they haven't shared anything yet. Discover creators in Suggested For You or browse the community!"
                   : filter === 'me'
-                  ? 'Share your thoughts, projects, or questions with the Route Academy community using the post composer above!'
-                  : 'Be the first to share your thoughts, projects, or questions with the Route Academy community!'}
+                  ? 'Share your thoughts, projects, or questions with the Orbit community using the post composer above!'
+                  : 'Be the first to share your thoughts, projects, or questions with the Orbit community!'}
               </p>
             </div>
             {filter === 'following' && (

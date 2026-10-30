@@ -83,7 +83,7 @@ export const ProfilePage: React.FC = () => {
         <div className="absolute inset-0 bg-linear-to-t from-slate-900/50 via-transparent to-white/10" />
         <div className="absolute top-4 right-4 px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-white text-xs font-semibold border border-white/30 flex items-center gap-1.5 shadow-sm">
           <ShieldCheck size={14} />
-          <span>Route Verified Student</span>
+          <span>Verified Member</span>
         </div>
       </div>
 
@@ -190,7 +190,7 @@ export const ProfilePage: React.FC = () => {
           </p>
 
           <p className="text-xs sm:text-sm text-slate-600 mt-3 max-w-2xl leading-relaxed">
-            Frontend Web Development Student at Route Academy. Building modern React 19 social applications.
+            Software engineer & digital creator. Building modern web applications on Orbit.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-4 text-xs text-slate-500 justify-center sm:justify-start">

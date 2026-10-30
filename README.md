@@ -1,6 +1,6 @@
-# Route Academy - Modern Social Media Application
+# 🌐 Orbit - Modern Social Media Network
 
-A modern, high-performance Social Media Web Application built with **React 19**, **React Compiler**, **TypeScript**, and **Tailwind CSS v4**. Developed as a production-grade project for Route Academy, powered by the official Route Posts REST API.
+A modern, high-performance Social Media Web Application built with **React 19**, **React Compiler**, **TypeScript**, and **Tailwind CSS v4**. Featuring a weightless, floating-island design language, atmospheric glow aesthetics, and full real-time community capabilities.
 
 ---
 
@@ -9,7 +9,7 @@ A modern, high-performance Social Media Web Application built with **React 19**,
 ### 1. 🔐 Authentication & Profile Management
 - **Full Authentication Suite**: Secure Sign Up, Sign In, and Password Management with JWT bearer authentication.
 - **Dynamic Avatar Upload**: Direct Cloudflare R2 image upload with real-time profile picture synchronization.
-- **User Profiles**: Panoramic cover design, joined dates, gender badges, and live statistical metrics.
+- **User Profiles**: Panoramic cover design, joined dates, status badges, and live statistical metrics.
 
 ### 2. 📰 Post Composer & Dynamic Feeds
 - **Rich Post Creation**: Compose posts with formatted hashtags (`#topic`), user mentions (`@user`), and image attachments with real-time preview.
@@ -33,7 +33,7 @@ A modern, high-performance Social Media Web Application built with **React 19**,
 
 ### 5. 👥 Real-Time Follow System
 - **Centralized Follow State**: Follow/Unfollow status is synchronized instantly across the entire application (Sidebars, User Profiles, Post Likes Modal, and Post Headers).
-- **Follow Suggestions**: Live recommendations for fellow Route Academy students.
+- **Follow Suggestions**: Live recommendations for fellow creators.
 - **Live Counter Sync**: Real-time optimistic updates to follower/following counters on both personal and public profiles.
 
 ### 6. 🔔 Real-Time Notifications

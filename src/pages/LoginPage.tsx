@@ -54,7 +54,7 @@ export const LoginPage: React.FC = () => {
             <Sparkles size={24} />
           </div>
           <h1 className="text-2xl font-black text-[#0F172A] tracking-tight">
-            Welcome to RoutePosts
+            Welcome to Orbit
           </h1>
           <p className="text-xs text-slate-500">
             Sign in to explore the community feed and connect with peers
@@ -127,7 +127,7 @@ export const LoginPage: React.FC = () => {
                 className="w-full py-2 px-3 text-[11px] font-semibold text-[#1877F2] bg-blue-50/70 hover:bg-blue-100/70 rounded-xl transition-colors border border-blue-100 flex items-center justify-center gap-1.5"
               >
                 <Sparkles size={13} />
-                <span>Quick Fill Route Demo Account</span>
+                <span>Quick Fill Demo Account</span>
               </button>
             </div>
           </form>

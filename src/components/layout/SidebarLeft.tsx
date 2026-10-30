@@ -132,9 +132,9 @@ export const SidebarLeft: React.FC = () => {
       <div className="px-3 text-[11px] text-slate-400 space-y-1">
         <p className="flex items-center gap-1.5">
           <Compass size={13} className="text-[#1877F2]" />
-          <span>Route Academy Posts Network</span>
+          <span>Orbit Social Network</span>
         </p>
-        <p>© 2026 Route Academy</p>
+        <p>© 2026 Orbit. All rights reserved.</p>
       </div>
     </aside>
   );

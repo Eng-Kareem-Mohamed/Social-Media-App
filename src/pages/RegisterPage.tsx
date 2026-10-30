@@ -70,7 +70,7 @@ export const RegisterPage: React.FC = () => {
             <Sparkles size={24} />
           </div>
           <h1 className="text-2xl font-black text-[#0F172A] tracking-tight">
-            Join RoutePosts
+            Join Orbit
           </h1>
           <p className="text-xs text-slate-500">
             Create your account to start sharing and interacting with fellow developers

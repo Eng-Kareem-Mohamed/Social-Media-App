@@ -80,7 +80,7 @@ const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) =
         <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#1877F2] to-[#0D6EFD] flex items-center justify-center text-white shadow-lg animate-pulse">
           <Sparkles size={24} />
         </div>
-        <p className="text-xs font-semibold text-slate-500">Loading RoutePosts...</p>
+        <p className="text-xs font-semibold text-slate-500">Loading Orbit...</p>
       </div>
     );
   }
@@ -101,7 +101,7 @@ const PublicOnlyRoute: React.FC<{ children: React.ReactNode }> = ({ children }) 
         <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#1877F2] to-[#0D6EFD] flex items-center justify-center text-white shadow-lg animate-pulse">
           <Sparkles size={24} />
         </div>
-        <p className="text-xs font-semibold text-slate-500">Connecting to Route Network...</p>
+        <p className="text-xs font-semibold text-slate-500">Connecting to Orbit Network...</p>
       </div>
     );
   }
