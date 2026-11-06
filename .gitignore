@@ -7,22 +7,38 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencies & Build
-node_modules
-dist
-dist-ssr
-*.local
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
 
-# Environment variables
+# Production & Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+.vite/
+*.tsbuildinfo
+
+# Environment & Secrets
 .env
 .env.*
 !.env.example
+*.env
 
-# Editor directories and files
+# API Collections & Local Exports
+*.postman_collection.json
+*.postman_environment.json
+
+# Editor & OS files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
 *.suo
 *.ntvs*
 *.njsproj
